@@ -1,0 +1,17 @@
+.button{
+    border: none;
+    padding: 10px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    background-color: #ffff00;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.mensage{
+    display: flex;
+    padding: 10px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
+.content{
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.hour{
+    position: relative;
+    font-size: 10px;
+    top: 5px;
+    margin-left: 10px;
+}
+
+.myMensage{
+    justify-content: flex-end;
+}
+
+.myMensage .content{
+    background-color: yellow;
+    
+}
+.otherMensage{
+    justify-content: flex-start;
+}
+.otherMensage span{
+    color: white;
+}
+
+.otherMensage .content{
+    background-color: #101010;
+    
+}
+.myMensage span{
+    color: black;
+}

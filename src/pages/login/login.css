@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-family: unset;
+    font-weight: 600;
+}
+
+.formLogin{
+    padding: 20px;
+    background-color: #080808;
+    border-radius: 10px 10px 10px 10px;
+    width: 30vw;
+}
+
+.formLogin p{
+    color: yellow;
+    font-size: 20px;
+}
+
+span{
+    color: white;
+}
+
+a{
+    color: yellow;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.img{
+    width: 10vw;
+    box-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .formLogin{
+        width: 50vw !important;
+    }
+    .formLogin p{
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .formLogin{
+        width: 90vw !important;
+    }
+    .formLogin p{
+        font-size: 25px !important;
+    }
+    .img{
+        width: 20vh !important;
+        box-align: center;
+    }
+}

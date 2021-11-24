@@ -1,0 +1,19 @@
+.item img{
+    height: 5vh;
+    width: 5vh;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: #101010;
+}
+.active{
+    background-color: #111111;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}

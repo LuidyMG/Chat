@@ -1,0 +1,75 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    background-color: yellow;
+    border-radius: 10px 0px 0px 0px;
+    padding: 10px;
+    flex: 0.10;
+    align-items: center;
+}
+.header span{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.body{
+    flex: 0.82;
+    background: #080808;
+    flex-direction: column;
+    justify-content: end;
+    overflow-y: auto;
+}
+.footer{
+    display: flex;
+    flex: 0.08;
+    padding: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #101010;
+    border-radius: 0px 0px 0px 10px;
+}
+.sendIcon{
+    width: 25px;
+    height: 25px;
+    margin-left: -10px !important;
+    position: absolute;
+    margin-right: 10px !important;
+}
+.sendIcon:hover{
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: yellow; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+  }
+
+@media screen and (max-width: 750px) {
+    .header{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .footer{
+        border-radius: 0px 0px 10px 10px;
+    }
+}

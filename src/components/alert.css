@@ -1,0 +1,33 @@
+.alert{
+    position: fixed;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+}
+
+.bottom-left{
+    right: -600px;
+    margin-right: 5px;
+    bottom: 2vh;
+    transition: 1.2s;
+    -moz-transition: 1.2s;
+}
+
+.bottom-left-run{
+    right: 10px !important;
+}
+
+.error{
+    background-color: #FF0000; 
+}
+.success{
+    background-color: green; 
+}
+.success p{
+    color: white !important;
+}
+.alert p{
+    font-size: 15px;
+}
+.error p{
+    color: white !important;
+}

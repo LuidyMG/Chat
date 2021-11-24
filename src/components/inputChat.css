@@ -1,0 +1,13 @@
+.inputChat{
+    border-left: 0px solid yellow;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    border-radius: 10px 10px 10px 10px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.inputChat:focus{
+    border-left: 10px solid yellow;
+}

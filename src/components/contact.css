@@ -1,0 +1,27 @@
+.itemList{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #111111;
+}
+.itemList:hover{
+    cursor: pointer;
+}
+.select{
+    background-color: black;
+}
+.itemList span{
+    display: flex;
+}
+p{
+    margin-left: 10px;
+}
+.iconMoreItems{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.iconMoreItems:hover{
+    cursor: pointer;
+}

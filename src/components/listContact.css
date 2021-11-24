@@ -1,0 +1,40 @@
+.iconSearch{
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    width: 25px;
+}
+.iconSearch:hover{
+    cursor: pointer;
+}
+.searchContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.boardBrand{
+    padding: 2px;
+    font-size: 14px;
+    background-color: #121212;
+}
+.boardContent{
+    overflow-y: auto;
+}
+.boardBrand span{
+    margin-left: 5px;
+    color: yellow;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;
+}
+.boardBrand:hover{
+    cursor: pointer;
+}
+.notFound{
+    text-align: center;
+    color: #202020;
+}
